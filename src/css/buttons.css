@@ -9,3 +9,26 @@
 .btn-default:hover {
     background-color: #5b3e30;
 }
+
+/* Switch */
+.form-check-input {
+    width: 60px; /* Ajuste a largura */
+    height: 20px; /* Ajuste a altura */
+}
+
+.form-check-input:checked {
+    background-color: var(--primary); /* Cor de fundo quando marcado */
+}
+
+.form-check-input:checked::before {
+    background-color: var(--primary); /* Cor da bolinha quando marcado */
+}
+
+.form-check-label {
+    color:var(--primary); /* Cor do texto */
+    font-weight: bold; /* Negrito */
+}
+
+.form-check-input:focus::before {
+    border: 2px solid var(--secondary);
+}
