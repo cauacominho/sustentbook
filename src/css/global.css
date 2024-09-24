@@ -4,9 +4,18 @@
 
 /* IMPORT DOCS CSS */
 @import url(colors.css);
+@import url(medias.css);
+@import url(forms.css);
+@import url(buttons.css);
 
 html, body {
     padding: 0;
     margin: 0;
     font-family: "Judson", Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: var(--primary);
 }
