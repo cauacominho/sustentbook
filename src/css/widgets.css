@@ -1,0 +1,82 @@
+.card{
+    background-color: var(--bg) !important;
+    border-radius: 0px;
+    border: 0.5px solid var(--primary);
+}
+
+.card img {
+    width: 80px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.card-book:hover {
+    box-shadow: rgb(103, 70, 54, 0.35) 0px 5px 15px;
+}
+
+/* NAV */
+.side-item .side-link{
+    color: var(--primary) !important;
+    font-weight: bold;
+}
+
+/* PROFILE */
+.content-profile img {
+    height: 120px;
+}
+
+/* LIKES & ITEMS */
+.heart-icon:hover i {
+    /* Troca a classe do ícone de 'regular' para 'solid' no hover */
+    content: "\f004"; /* Código do ícone solid */
+    font-family: "Font Awesome 5 Free"; /* Define a fonte do ícone */
+    font-weight: 900; /* Usado para solid icons */
+    color: #da0000;
+}
+
+.link-infos:hover {
+    color: #006700 !important;
+}
+
+.text-link-info {
+    font-size: .9rem;
+    opacity: .8;
+}
+
+.text-link-info a {
+    text-decoration: underline;
+}
+
+/* CARROSSEL */ 
+#carouselBooks {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza verticalmente */
+}
+
+#carouselBooks .carousel {
+    width: 80%; /* Ajuste a largura conforme necessário */
+    margin: 0 auto; /* Centraliza horizontalmente */
+}
+
+/* Thumbnails */
+#carouselBooks .d-flex {
+    justify-content: center; /* Centraliza os thumbnails */
+}
+
+#carouselBooks .img-thumbnail {
+    cursor: pointer; /* Indica que a imagem é clicável */
+    transition: transform 0.2s; /* Efeito de transição ao passar o mouse */
+}
+
+#carouselBooks .img-thumbnail:hover {
+    transform: scale(1.1); /* Efeito de zoom ao passar o mouse */
+}
+
+
+/* Tables */
+.table td.text-truncate {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+

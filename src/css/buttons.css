@@ -1,3 +1,8 @@
+.btn-sm {
+    font-size: 16px !important;
+    height: 40px !important;
+}
+
 .btn-default {
     background-color: var(--primary);
     height: 50px;
@@ -9,6 +14,21 @@
 .btn-default:hover {
     background-color: #5b3e30;
 }
+
+.btn-white {
+    background-color: var(--bg);
+    height: 50px;
+    color: var(--primary);
+    border: 2px solid var(--primary);
+    font-size: 18px;
+}
+
+.btn-white:hover {
+    background-color: #5b3e30;
+    color: var(--bg);
+    border-color: var(--bg);
+}
+
 
 /* Switch */
 .form-check-input {
@@ -31,4 +51,29 @@
 
 .form-check-input:focus::before {
     border: 2px solid var(--secondary);
+}
+
+/* BTNS SELECT DAYS */
+.btn-square {
+    width: 40px; /* Ajuste o tamanho conforme necessário */
+    height: 40px; /* Ajuste o tamanho conforme necessário */
+    margin-right: 5px;
+}
+
+.btn-outline-default {
+    color: var(--primary);
+    border: 2px solid var(--primary);
+    font-size: 12px;
+    background-color: transparent;
+}
+
+.btn-outline-default:hover {
+    border-color: var(--white);
+    color: var(--white);
+}
+
+ .active {
+    background-color: var(--bg); 
+    color: var(--primary);
+    border: 2px solid var(--primary);
 }

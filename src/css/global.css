@@ -7,6 +7,7 @@
 @import url(medias.css);
 @import url(forms.css);
 @import url(buttons.css);
+@import url(widgets.css);
 
 html, body {
     padding: 0;

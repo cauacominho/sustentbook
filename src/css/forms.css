@@ -18,3 +18,59 @@
 .form-default::placeholder {
     color: var(--primary);
 }
+
+.textarea-default {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--primary);
+    background-color: var(--bg);
+    border-radius: 0;
+    font-size: 1rem;
+    box-sizing: border-box;
+    resize: none; /* Impede o redimensionamento */
+    line-height: 1.5rem; /* Altura de cada linha */
+    height: calc(1.5rem * 6 + 20px); /* Altura baseada em 5 linhas e padding */
+}
+
+.textarea-default:focus {
+    border-color: var(--secondary);
+    outline: none;
+    border: 2px solid var(--secondary);
+}
+
+.textarea-default::placeholder {
+    color: var(--primary);
+}
+
+
+/* Search */
+.search-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 70%;
+}
+
+.search-icon {
+    position: absolute;
+    font-size: 18px;
+    color: var(--primary);
+}
+
+.input-search {
+    padding-left: 25px; /* Espaço suficiente para a lupa */
+    height: 40px; /* Ajuste a altura conforme necessário */
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid var(--primary);
+    background-color: var(--bg);
+    font-size: 16px;
+}
+
+.input-search:focus {
+    outline: none;
+}
+
+.input-search::placeholder {
+    color: var(--primary);
+}
